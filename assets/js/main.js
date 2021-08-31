@@ -61,4 +61,43 @@
 					visibleClass: 'navPanel-visible'
 				});
 
+		// Button
+		//     $('.button').click( function () {
+		//     	$('#ewm').show();
+		//     })
+
+		//     $window.on('click', function(e) {
+		// 	var src = e.target;
+  //              if(src.id && src.id =="ewm"){
+  //                  return false;
+  //              }else{
+  //                  $('#ewm').hide();
+  //              }
+		// });
+
+
 })(jQuery);
+
+// var myDiv = $("#ewm");
+
+// $(function() {
+//     $(".button-focus").click(function(event) {
+//         // showDiv();//调用显示DIV方法
+//         $(myDiv).toggle();
+
+//         $(document).one("click",
+//         function() { //对document绑定一个影藏Div方法
+//             $(myDiv).hide();
+
+//         });
+
+//         event.stopPropagation(); //阻止事件向上冒泡
+//     });
+//     $(myDiv).click(function(event) {
+
+//         event.stopPropagation(); //阻止事件向上冒泡
+//     });
+// });　　　　
+// function showDiv() {
+//     $(myDiv).fadeIn();
+// }
