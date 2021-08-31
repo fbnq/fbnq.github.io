@@ -2988,3 +2988,11 @@ input, select, textarea {
     -o-transition: opacity .15s linear;
     transition: opacity .15s linear;
 }
+
+.Research-p{
+	text-align: left;
+}
+
+#Research-img{
+	margin-top: -4.5em;
+}
