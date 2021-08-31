@@ -1563,7 +1563,7 @@ input, select, textarea {
 			}
 
 	footer {
-		margin: 2.25em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 /* Box */
@@ -1589,7 +1589,7 @@ input, select, textarea {
 			width：auto; 
 			height: 8em;
 			padding-top: 1em;
-			margin: 0 0 2.5em 0;
+			margin: 0 0 2em 0;
 		}
 
 		/*.box.post header {
@@ -1609,9 +1609,15 @@ input, select, textarea {
 			letter-spacing: -0.015em;
 		}*/
 
-		.box.post header > p {
+		/*.box.post header > p {
 			width：auto; 
 			font-size: 1.25em;
+			margin-bottom: 0;
+		}*/
+		.box-p{
+			width：auto; 
+			font-size: 1.25em;
+			margin-bottom: 1em;
 		}
 
 		.box footer ul.actions {
