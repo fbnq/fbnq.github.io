@@ -1584,7 +1584,8 @@ input, select, textarea {
 		}
 
 		.box.post header {
-			width：250px; 
+			width：auto; 
+			height: 30%
 			padding-top: 1em;
 			margin: 0 0 2em 0;
 		}
@@ -1595,6 +1596,8 @@ input, select, textarea {
 		}
 
 		.box.post header > p {
+			width：auto; 
+			height: 15%
 			margin-top: 1.25em;
 			font-size: 1.25em;
 		}
@@ -2196,7 +2199,7 @@ input, select, textarea {
 			#banner header h2 {
 				color: #fff;
 				font-weight: 500;
-				font-size: 1.5em;
+				font-size: 2em;
 				margin: 0 0 0.65em 0;
 			}
 
