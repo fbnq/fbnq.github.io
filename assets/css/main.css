@@ -2190,9 +2190,7 @@ input, select, textarea {
 
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.8);
-			/*display: inline-block;*/
-			width: 50em;
-			margin:0,auto;
+			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
 		}
