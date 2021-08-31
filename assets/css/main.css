@@ -1577,6 +1577,7 @@ input, select, textarea {
 		.box .image.featured {
 			position: relative;
 			width: auto;
+			height: 30%;
 			left: 1.75em;
 			top: 1.75em;
 			margin: -4.5em 0 4.25em -3.5em;
@@ -1588,7 +1589,7 @@ input, select, textarea {
 		}
 
 		.box.post h2 {
-			font-size: 2.5em;
+			font-size: 1.5em;
 			letter-spacing: -0.015em;
 		}
 
