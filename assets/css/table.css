@@ -1497,7 +1497,7 @@ input, select, textarea {
 
 /* Tables */
 
-	/*table {
+	table {
 		width: 100%;
 	}
 
@@ -1522,7 +1522,7 @@ input, select, textarea {
 
 		table thead {
 			border-bottom: solid 2px #dddddd;
-		}*/
+		}
 
 /* Section/Article */
 
