@@ -130,13 +130,8 @@
 	height: 100%;
 	border-radius:50%;
 }
-.our-team .social {
-    list-style: none;
-    padding-left: 0;
-    overflow: hidden;
-    /*cursor: default;*/
-    margin-bottom: 0;
-
+.social > a{
+	 text-decoration:none;
 }
 .our-team .team-content {
     margin-bottom: 30px;
