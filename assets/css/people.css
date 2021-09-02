@@ -1,0 +1,138 @@
+/*.box-people {
+    background: rgba(254,219,207,0.2);
+}*/
+#me {
+    padding: 0;
+    height: 15em;
+}
+/*#main > * {
+    border-top: solid 2px #eeeeee;
+    margin: 0;
+}*/
+.panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 1px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel {
+    width: 100%;
+    background-color: transparent;
+}
+
+#me header {
+    margin-top:5em;
+    margin-left: 3em;
+    float:left;
+}
+#me > header > h1{
+	font-size: 50px;
+	font-weight: 500;
+    line-height: 1.1;
+}
+#me header > p {
+	margin: 0 0 10px;
+    font-size: 1.5em;
+    margin-top: 0;
+    line-height: 2;
+    font-weight: 500;
+    font-style:  normal
+}
+#me .pic {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: 0px;
+}
+#me > a{
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+/*.box-people{
+	margin-bottom: 5px; 
+}*/
+.section-title{
+	padding-bottom: 5px;
+	padding-left: 15px;
+	margin-top:30px;
+	border-bottom:3px solid;
+	border-image: -webkit-linear-gradient(to right,#f15a23,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0 )10;
+     border-image: -moz-linear-gradient(to right,#f15a23,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0 )10;
+     border-image: linear-gradient(to right,#f15a23,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0,#C0C0C0 )10;
+}
+.section-title > p{
+	font-size:30px;
+    font-weight:500;
+    margin-bottom: 0;
+	
+}
+.section-title > p > strong{
+	color: #f15a23;
+}
+
+.demo.container {
+    width: 100%;
+
+}
+.demo.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.demo.container {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.col-md-3 {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 20%;
+    float:left;
+
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height:23em;
+
+}
+.demo{
+	margin-top:0px;
+}
+.our-team {
+	height: 100%;
+    padding: 20px 0 0px;
+    background: #f7f5ec;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+}
+.our-team .pic {
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+    margin-bottom: 40px;
+    z-index: 1;
+    position: relative;
+}
+.our-team .pic > img{
+	width:100%;
+	height: 100%;
+	border-radius:50%;
+}
+.social > a{
+	 text-decoration:none;
+}
+.our-team .team-content {
+    margin-bottom: 30px;
+}
