@@ -1,0 +1,57 @@
+/*.box-people {
+    background: rgba(254,219,207,0.2);
+}*/
+#me {
+    padding: 0;
+    height: 15em;
+}
+/*#main > * {
+    border-top: solid 2px #eeeeee;
+    margin: 0;
+}*/
+.panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 1px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel {
+    width: 100%;
+    background-color: transparent;
+}
+
+#me header {
+    margin-top:5em;
+    margin-left: 3em;
+    float:left;
+}
+#me > header > h1{
+	font-size: 50px;
+	font-weight: 500;
+    line-height: 1.1;
+}
+#me header > p {
+	margin: 0 0 10px;
+    font-size: 1.5em;
+    margin-top: 0;
+    line-height: 2;
+    font-weight: 500;
+    font-style:  normal
+}
+#me .pic {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 0px;
+}
+#me > a{
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+/*.box-people > #{
+	background-color: 
+}*/
