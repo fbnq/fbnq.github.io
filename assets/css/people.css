@@ -56,7 +56,7 @@
 	margin-bottom: 5px; 
 }*/
 .demo.container {
-    width: 100*;
+    width: 100%;
 }
 .demo.container {
     padding-right: 15px;
@@ -81,7 +81,7 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    height: auto;
+    height:25em;
 }
 .demo{
 	margin-top:30px;
@@ -97,8 +97,8 @@
 }
 .our-team .pic {
     display: inline-block;
-    width: 140px;
-    height: 140px;
+    width: 10em;
+    height: 10em;
     margin-bottom: 40px;
     z-index: 1;
     position: relative;
@@ -117,18 +117,4 @@
 }
 .our-team .team-content {
     margin-bottom: 30px;
-}
-.social > li > a {
-    display: inline-block;
-    width: 3em;
-    height: 3em;
-    text-align: center;
-    border-radius: 5px;
-    background: #888;
-    color: #d52349;
-    text-decoration: underline;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
-    -ms-transition: background-color .25s ease-in-out;
-    transition: background-color .25s ease-in-out;
 }
