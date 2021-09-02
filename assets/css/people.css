@@ -44,7 +44,7 @@
 }
 #me .pic {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     position: relative;
     float: right;
     margin-top: 0px;
@@ -52,6 +52,67 @@
 #me > a{
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-/*.box-people > #{
-	background-color: 
+/*.box-people{
+	margin-bottom: 5px; 
 }*/
+.demo.container {
+    width: 100*;
+}
+.demo.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.demo.container {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.col-md-3 {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 25%;
+    float:left;
+    background-color: pink;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.demo{
+	margin-top:30px;
+}
+.our-team {
+	height: 100%;
+    padding: 20px 0 40px;
+    background: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.our-team .pic {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 40px;
+    z-index: 1;
+    position: relative;
+}
+.pic > img{
+	width:100%;
+	height: 100%
+
+}
+.social {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    cursor: default;
+    margin: 0 0 3.25em 0;
+}
+.our-team .team-content {
+    margin-bottom: 30px;
+}
