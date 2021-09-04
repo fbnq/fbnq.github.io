@@ -2216,7 +2216,7 @@ input, select, textarea {
 			#banner header h2 {
 				color: #fff;
 				font-weight: 500;
-				font-size: 2em;
+				font-size: 2.5em;
 				margin: 0 0 0.65em 0;
 			}
 
@@ -2225,7 +2225,7 @@ input, select, textarea {
 				padding: 0;
 				font-style: normal;
 				margin: 0;
-				font-size: 1em;
+				font-size: 1.5em;
 			}
 
 /* Intro */
@@ -2924,19 +2924,17 @@ input, select, textarea {
 
     .modal-content {
     position: relative;
-    background-color: (0,0,0,1);
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 15em;
+    width: 50%;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #999;
     border: 1px solid rgba(0,0,0,.2);
-    border-radius: 6px;
+    border-radius:0 10px 10px 0;
     outline: 0;
     -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
     box-shadow: 0 3px 9px rgba(0,0,0,.5);
-}
-.modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 .modal.in .modal-dialog {
     -webkit-transform: translate(0,0);
@@ -2998,4 +2996,10 @@ input, select, textarea {
 }
 .row-index.col-4{
 	padding-left:25px;
+}
+.row-index{
+	padding: 50px 0 0 0;
+}
+.col-12-indexrow{
+	padding: 50px 25px 0 25px
 }
